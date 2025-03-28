@@ -22,6 +22,42 @@
     <a href="#" onclick="fecharMenu()">Pedidos do Dia</a>
 </nav>
 <main id="conteudo">
+
+    <ul>
+        <li>
+            <label>Cliente <input type="text"></label>
+            <label>Data do Pedido <input type="date"></label>
+            
+            <br>
+    
+            <select name="Menu-Pedido">
+                <option value="" disabled >Informe o Pedido</option>
+                <option value="Conjunto">Conjunto</option>
+                <option value="Blusa" selected>Blusa</option>
+                <option value="Calça">Calça</option>
+                <option value="Short">Short</option>
+                <option value="Short-Saia">Short-Saia</option>
+              </select>
+
+              <select>
+                <optgroup label="Conjunto">
+                  <option value = "Escola Cívico Militar" id ="civico">Escola Cívico Militar</option>
+                  <option>Escola Cícero Cabral</option>
+                  <option>Escola Cícero Cabral - Menor</option>
+                  <option>Escola Cícero Cabral - Menor</option>
+                </optgroup>
+                <optgroup label="Grupo 2">
+                  <option>Opção 2.1</option>
+                  <option>Opção 2.2</option>
+                </optgroup>
+                <optgroup label="Grupo 3" disabled>
+                  <option>Opção 3.1</option>
+                  <option>Opção 3.2</option>
+                  <option>Opção 3.3</option>
+                </optgroup>
+              </select>
+        </li>
+    </ul>
     <!-- Conteudo do site dentro desse main, Pagina de cadastra, cosultar, remover, gerais e do dia -->
 </main>
 <body>
